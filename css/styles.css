@@ -1,0 +1,72 @@
+/***************TAG SELECTORS*******************/
+
+body {
+  background-color: #d6e0f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 60%;
+}
+
+h1 {
+  color: #393b44;
+}
+
+h3 {
+  color: #8d93ab;
+}
+
+/*****************CLASS SELECTORS***************/
+/* NOTE: Classes can be used as much as you want */
+
+.circular {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 10px;
+}
+
+/* NOTE: serves no purpose, just want a reason to use hover */
+.star:hover {
+  color: yellow;
+}
+
+.firstPara {
+  text-align: left;
+  display: inline-block;
+}
+
+.moveFromLeft {
+  position: relative;
+  left: 40px;
+}
+
+.center {
+  text-align: center;
+}
+
+.centerTable {
+  margin-left:auto;
+  margin-right:auto;
+  width: 50%;
+  text-align: center;
+}
+
+.wrapper {
+  text-align: center;
+
+  float: none;
+}
+
+/*****************ID SELECTORS***************/
+/* NOTE: Id's can only be used once */
+
+#opening {
+  font-size: 20px;
+}
